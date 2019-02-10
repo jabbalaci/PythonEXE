@@ -43,3 +43,17 @@ the executable with the following commands:
 or (using pyinstaller's `--noupx` switch)
 
     $ pynt exe2
+
+Video
+-----
+
+Click on the image below to open a YouTube video that shows you everything step-by-step:
+
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=2XBjnfx3g3U"><img width="60%" src="assets/screenshot.png" alt="view demo on YouTube"></a>
+</div>
+
+Links
+-----
+
+Reddit discussion: [here](https://old.reddit.com/r/learnpython/comments/aoxoki/i_made_a_sample_project_to_demonstrate_how_to/).
