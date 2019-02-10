@@ -20,8 +20,8 @@ a DLL is missing, then try this variation:
 
 You'll find the exe in the `dist/` folder.
 
-Why would I need an EXE?
-------------------------
+Why would you need an EXE?
+--------------------------
 
 It makes distributing your program much easier. The exe produced by
 PyInstaller is standalone. It's enough to give this exe to your
@@ -30,6 +30,17 @@ Python on his/her machine, create a virtual environment, etc.
 
 Of course, if your friend uses Windows (Linux), then create the exe under
 Windows (Linux).
+
+Will my EXE run faster?
+-----------------------
+
+**No.** PyInstaller simply creates a bundle that contains everything: your code,
+the necessary modules / packages, the virtual environment, the Python interpreter, etc.
+When you launch the EXE, it is extracted to your temp folder (under Linux
+it's the `/tmp` folder), and your application is started from there. So the
+runtime will be approximately the same.
+
+For a demo, check out my simple Fibonacci implementation in the folder `speed_test`.
 
 pynt
 ----
