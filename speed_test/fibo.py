@@ -14,9 +14,9 @@ def fib(n):
 
 def main():
     start = time.time()
-    res = fib(X)
+    result = fib(X)
     elapsed = time.time() - start
-    print("Py3 Computed fib(%s)=%s in %0.2f seconds" % (X, res, elapsed))
+    print(f"fib({X}) = {result} was computed in {elapsed:.2f} seconds")
 
 ##############################################################################
 
