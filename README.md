@@ -64,7 +64,9 @@ Click on the image below to open a YouTube video that shows you everything step-
   <a href="https://www.youtube.com/watch?v=2XBjnfx3g3U"><img width="60%" src="assets/screenshot.png" alt="view demo on YouTube"></a>
 </div>
 
-Links
------
+Links / News
+------------
 
-Reddit discussion: [here](https://old.reddit.com/r/learnpython/comments/aoxoki/i_made_a_sample_project_to_demonstrate_how_to/).
+* This project of mine got included in [PyCoder's Weekly -- Issue #355](https://pycoders.com/issues/355)
+under the title "PythonEXE: How to Create an Executable File From a Python Script?"
+* Reddit discussion: [here](https://old.reddit.com/r/learnpython/comments/aoxoki/i_made_a_sample_project_to_demonstrate_how_to/).
