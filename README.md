@@ -70,3 +70,5 @@ Links / News
 * This project of mine got included in [PyCoder's Weekly -- Issue #355](https://pycoders.com/issues/355)
 under the title "PythonEXE: How to Create an Executable File From a Python Script?"
 * Reddit discussion: [here](https://old.reddit.com/r/learnpython/comments/aoxoki/i_made_a_sample_project_to_demonstrate_how_to/).
+* [Using PyInstaller to Easily Distribute Python Applications](https://realpython.com/pyinstaller-python/),
+a blog post on the same topic
