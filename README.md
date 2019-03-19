@@ -64,11 +64,12 @@ Click on the image below to open a YouTube video that shows you everything step-
   <a href="https://www.youtube.com/watch?v=2XBjnfx3g3U"><img width="60%" src="assets/screenshot.png" alt="view demo on YouTube"></a>
 </div>
 
-Links / News
-------------
+Links / News / Related Work
+---------------------------
 
 * This project of mine got included in [PyCoder's Weekly -- Issue #355](https://pycoders.com/issues/355)
 under the title "PythonEXE: How to Create an Executable File From a Python Script?"
 * Reddit discussion: [here](https://old.reddit.com/r/learnpython/comments/aoxoki/i_made_a_sample_project_to_demonstrate_how_to/).
 * [Using PyInstaller to Easily Distribute Python Applications](https://realpython.com/pyinstaller-python/),
 a blog post on the same topic
+* [PyUpdater](https://github.com/JMSwag/PyUpdater), a pyinstaller auto-update framework
