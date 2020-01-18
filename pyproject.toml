@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pythonexe"
+version = "0.1.0"
+description = ""
+authors = ["Jabba Laci <jabba.laci@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+requests = "^2.22.0"
+
+[tool.poetry.dev-dependencies]
+pynt = "^0.8.2"
+pyinstaller = "^3.6"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
