@@ -10,7 +10,7 @@ requests = "^2.22.0"
 
 [tool.poetry.dev-dependencies]
 pynt = "^0.8.2"
-pyinstaller = "^3.6"
+pyinstaller = ">=3.6"
 
 [build-system]
 requires = ["poetry>=0.12"]
