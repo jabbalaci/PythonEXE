@@ -23,11 +23,11 @@ You'll find the exe in the `dist/` folder.
 Why would you need an EXE?
 --------------------------
 
-EXE is a file extension for an executable file format.It makes distributing your program much easier. The exe produced by
-PyInstaller is standalone. It's enough to give this exe to your
-friend and (s)he can run it right away. There is no need to install
-Python on his/her machine, create a virtual environment, etc.
-An executable file can be run by a program in Microsoft DOS or Windows through a command or a double click.
+EXE is a file extension for an executable file format. It makes distributing your
+program much easier. The exe produced by PyInstaller is standalone.
+It means that it's enough to give this exe to your friend and (s)he can run it right away.
+There is no need to install Python on his/her machine, no need to create a virtual environment, etc.
+Under Windows you can simply start an exe with a double click.
 
 Of course, if your friend uses Windows (Linux), then create the exe under
 Windows (Linux).
@@ -47,8 +47,7 @@ pynt
 ----
 
 [pynt](https://github.com/rags/pynt) is a minimalistic build tool. If you installed everything
-with pipenv (`pipenv install --dev`), then you can also create
-the executable with the following commands:
+with poetry (`poetry install`), then you can also create the executable with the following commands:
 
     $ pynt exe
 
@@ -64,6 +63,13 @@ Click on the image below to open a YouTube video that shows you everything step-
 <div align="center">
   <a href="https://www.youtube.com/watch?v=2XBjnfx3g3U"><img width="60%" src="assets/screenshot.png" alt="view demo on YouTube"></a>
 </div>
+
+Changes since the video was made:
+
+* The project was updated for Python 3.8 and PyInstaller 4.0.
+* In the video I talk about pipenv, but the project was updated
+to use [poetry](https://python-poetry.org/). I tried both pipenv and poetry and [I prefer
+poetry](https://pythonadventures.wordpress.com/2019/11/02/moving-from-pipenv-to-poetry/).
 
 Links / News / Related Work
 ---------------------------
