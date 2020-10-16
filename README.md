@@ -1,21 +1,19 @@
 Python EXE Maker
 ================
 
-You can use this project to build executable file of your Python Code.
-
-A simple project that demonstrates how to create an executable
-from a Python project.
+This little project shows you how to build an executable file
+of your Python code.
 
 Here, `hello.py` is the main file. It uses a module (`helper.py`),
 it imports the `os` module from the stdlib, and it even uses
 a 3rd-party library (`requests`).
 
-With PyInstaller, you can easily create a single executable from
+With PyInstaller, you can easily create a single executable file from
 this project.
 
     $ pyinstaller --onefile hello.py
 
-Under Windows you might have a problem with this. If the .exe complains that
+Under Windows you might have a problem with this. If the `.exe` complains that
 a DLL is missing, then try this variation:
 
     $ pyinstaller --onefile --noupx hello.py
