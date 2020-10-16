@@ -23,10 +23,11 @@ You'll find the exe in the `dist/` folder.
 Why would you need an EXE?
 --------------------------
 
-It makes distributing your program much easier. The exe produced by
+EXE is a file extension for an executable file format.It makes distributing your program much easier. The exe produced by
 PyInstaller is standalone. It's enough to give this exe to your
 friend and (s)he can run it right away. There is no need to install
 Python on his/her machine, create a virtual environment, etc.
+An executable file can be run by a program in Microsoft DOS or Windows through a command or a double click.
 
 Of course, if your friend uses Windows (Linux), then create the exe under
 Windows (Linux).
