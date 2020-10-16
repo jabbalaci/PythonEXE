@@ -1,5 +1,7 @@
-Python EXE
-==========
+Python EXE Maker
+================
+
+You can use this project to build executable file of your Python Code.
 
 A simple project that demonstrates how to create an executable
 from a Python project.
