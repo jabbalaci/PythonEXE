@@ -6,7 +6,7 @@ authors = ["Jabba Laci <jabba.laci@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-requests = "^2.24.0"
+requests = "^2.31.0"
 
 [tool.poetry.dev-dependencies]
 pynt = "^0.8.2"
