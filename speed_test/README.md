@@ -5,12 +5,9 @@ Experimental Results
 (PythonEXE-CCJMp2QJ) $ ./fibo.py
 fib(38) = 39088169 was computed in 10.75 seconds
 ==============================================================================
-(PythonEXE-CCJMp2QJ) $ pynt exe2
-[ build.py - Starting task "exe2" ]
-┌ start: calling external command 'pyinstaller --onefile --noupx fibo.py'
+(PythonEXE-CCJMp2QJ) $ make exe2
+pyinstaller --onefile --noupx fibo.py
 ...
-└ end: calling external command 'pyinstaller --onefile --noupx fibo.py'
-[ build.py - Completed task "exe2" ]
 ==============================================================================
 (PythonEXE-CCJMp2QJ) $ dist/fibo
 fib(38) = 39088169 was computed in 11.93 seconds

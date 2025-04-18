@@ -17,8 +17,8 @@ BASE_DIR = os.path.dirname(os.path.abspath(sys.argv[0]))
 
 
 def main():
-    print('hello world')
-    print('contacting google.com...')
+    print("hello world")
+    print("contacting google.com...")
     r = requests.head("https://www.google.com")
     print("status code:", r.status_code)
     print("PATH:", os.getenv("PATH"))
@@ -35,6 +35,7 @@ def main():
     print("writing to the following file:", fname)
     with open(fname, "w") as g:
         print("writing to a file", file=g)
+
 
 ##############################################################################
 

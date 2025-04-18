@@ -18,6 +18,7 @@ def main():
     elapsed = time.time() - start
     print(f"fib({X}) = {result} was computed in {elapsed:.2f} seconds")
 
+
 ##############################################################################
 
 if __name__ == "__main__":

@@ -43,17 +43,19 @@ runtime will be approximately the same.
 
 For a demo, check out my simple Fibonacci implementation in the folder `speed_test`.
 
-pynt
-----
+Making an EXE
+-------------
 
-[pynt](https://github.com/rags/pynt) is a minimalistic build tool. If you installed everything
-with poetry (`poetry install`), then you can also create the executable with the following commands:
+The project uses the uv package manager. Create
+and activate the virtual environment. Then, with
 
-    $ pynt exe
+    $ make exe
 
-or (using pyinstaller's `--noupx` switch)
+and with
 
-    $ pynt exe2
+    $ make exe2
+
+you can create an executable.
 
 Video
 -----
@@ -66,10 +68,8 @@ Click on the image below to open a YouTube video that shows you everything step-
 
 Changes since the video was made:
 
-* The project was updated for Python 3.8 and PyInstaller 4.0.
-* In the video I talk about pipenv, but the project was updated
-to use [poetry](https://python-poetry.org/). I tried both pipenv and poetry and [I prefer
-poetry](https://pythonadventures.wordpress.com/2019/11/02/moving-from-pipenv-to-poetry/).
+* The project was updated to Python 3.13.
+* In the video I talk about pipenv, but the project was updated to use uv.
 
 Links / News / Related Work
 ---------------------------
