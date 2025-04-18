@@ -46,16 +46,28 @@ For a demo, check out my simple Fibonacci implementation in the folder `speed_te
 Making an EXE
 -------------
 
-The project uses the uv package manager. Create
-and activate the virtual environment. Then, with
+The project uses the [uv](https://docs.astral.sh/uv/) package manager. Download
+the project and enter its folder. Then, issue the command
+
+    $ uv sync
+
+With this ^ command you can create the virtual environment
+and install the necessary packages in the virt. env.
+
+Then, try to execute the program:
+
+    $ make run
+
+If it works, create an executable of it
+by using one of the following commands:
 
     $ make exe
 
-and with
+or
 
     $ make exe2
 
-you can create an executable.
+The EXE will be stored in the `dist/` folder.
 
 Video
 -----

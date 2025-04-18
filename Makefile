@@ -1,8 +1,11 @@
 cat:
 	cat Makefile
 
+run:
+	uv run hello.py
+
 exe:
-	pyinstaller --onefile hello.py
+	uv run pyinstaller --onefile hello.py
 
 exe2:
-	pyinstaller --onefile --noupx hello.py
+	uv run pyinstaller --onefile --noupx hello.py

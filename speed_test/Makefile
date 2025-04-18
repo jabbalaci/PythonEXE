@@ -1,8 +1,11 @@
 cat:
 	cat Makefile
 
+run:
+	uv run fibo.py
+
 exe:
-	pyinstaller --onefile fibo.py
+	uv run pyinstaller --onefile fibo.py
 
 exe2:
-	pyinstaller --onefile --noupx fibo.py
+	uv run pyinstaller --onefile --noupx fibo.py

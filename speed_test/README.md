@@ -2,14 +2,15 @@ Experimental Results
 --------------------
 
 ```
-(PythonEXE-CCJMp2QJ) $ ./fibo.py
+$ make run
+uv run fibo.py
 fib(38) = 39088169 was computed in 10.75 seconds
 ==============================================================================
-(PythonEXE-CCJMp2QJ) $ make exe2
-pyinstaller --onefile --noupx fibo.py
+$ make exe2
+uv run pyinstaller --onefile --noupx fibo.py
 ...
 ==============================================================================
-(PythonEXE-CCJMp2QJ) $ dist/fibo
+$ dist/fibo
 fib(38) = 39088169 was computed in 11.93 seconds
 ```
 
